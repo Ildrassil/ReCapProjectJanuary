@@ -1,10 +1,10 @@
-package org.example.recapprojectjanuary;
+package org.example.recapprojectjanuary.controller;
 
-import org.example.recapprojectjanuary.DTO.ErrorMessage;
-import org.example.recapprojectjanuary.DTO.RequestToDo;
-import org.example.recapprojectjanuary.DTO.ToDo;
+import org.example.recapprojectjanuary.dto.ErrorMessage;
+import org.example.recapprojectjanuary.dto.RequestToDo;
+import org.example.recapprojectjanuary.dto.ToDo;
 import lombok.RequiredArgsConstructor;
-import org.example.recapprojectjanuary.UTIL.WebService;
+import org.example.recapprojectjanuary.service.WebService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

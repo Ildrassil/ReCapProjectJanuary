@@ -1,4 +1,4 @@
-package org.example.recapprojectjanuary.DTO;
+package org.example.recapprojectjanuary.dto;
 
 import java.util.List;
 

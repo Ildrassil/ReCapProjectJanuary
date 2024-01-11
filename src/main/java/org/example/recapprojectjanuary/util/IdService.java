@@ -1,4 +1,4 @@
-package org.example.recapprojectjanuary.UTIL;
+package org.example.recapprojectjanuary.util;
 
 import org.springframework.stereotype.Component;
 

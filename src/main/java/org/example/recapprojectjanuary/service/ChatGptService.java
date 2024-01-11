@@ -1,7 +1,7 @@
-package org.example.recapprojectjanuary.Service;
+package org.example.recapprojectjanuary.service;
 
 import org.example.recapprojectjanuary.ChatGPTRequest;
-import org.example.recapprojectjanuary.DTO.*;
+import org.example.recapprojectjanuary.dto.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

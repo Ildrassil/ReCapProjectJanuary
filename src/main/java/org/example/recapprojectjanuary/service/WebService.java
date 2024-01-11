@@ -1,11 +1,10 @@
-package org.example.recapprojectjanuary.UTIL;
+package org.example.recapprojectjanuary.service;
 
-import org.example.recapprojectjanuary.DTO.RequestToDo;
-import org.example.recapprojectjanuary.DTO.ToDo;
+import org.example.recapprojectjanuary.dto.RequestToDo;
+import org.example.recapprojectjanuary.dto.ToDo;
 import lombok.RequiredArgsConstructor;
-import org.example.recapprojectjanuary.Service.ChatGptService;
-import org.example.recapprojectjanuary.ToDoRepo;
-import org.example.recapprojectjanuary.UTIL.IdService;
+import org.example.recapprojectjanuary.repo.ToDoRepo;
+import org.example.recapprojectjanuary.util.IdService;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 

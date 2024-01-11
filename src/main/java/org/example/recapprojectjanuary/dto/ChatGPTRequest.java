@@ -1,7 +1,6 @@
 package org.example.recapprojectjanuary;
 
-import org.example.recapprojectjanuary.DTO.ChatGPTMessage;
-import org.springframework.http.StreamingHttpOutputMessage;
+import org.example.recapprojectjanuary.dto.ChatGPTMessage;
 
 import java.util.Collections;
 import java.util.List;
