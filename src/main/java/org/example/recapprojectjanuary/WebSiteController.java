@@ -31,6 +31,7 @@ public class WebSiteController {
     }
 
     @PostMapping("/todo")
+    @ResponseStatus(HttpStatus.CREATED)
     public void postToDos(@RequestBody RequestToDo todo ){
         webService.putToDo(todo);
 
